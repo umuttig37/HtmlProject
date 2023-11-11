@@ -1,0 +1,98 @@
+header h1 {
+    background-color: grey;
+}
+
+
+.card {
+  vertical-align: top;
+  width: 30%;
+    display: inline-block;
+    margin: 10px; /* Adding some space between cards */
+    border: 1px solid #ccc; /* Adding a border for visualization */
+    box-sizing: border-box;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.omacard {
+  height: 50px;
+
+}
+
+.omacard1 {
+  height: 50px;
+}
+
+.omacard2 {
+height: 50px;
+}
+
+.Kuva1 {
+  height: 200px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: linear-gradient(#37adad, rgba(55, 173, 173, 0.10));
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: darkgrey;
+  margin-bottom: 0;
+  font-family: Calibri;
+  margin-right: 0;
+  min-height: 100vh;
+}
+
+button a {
+  color: white;
+}
+
+ul {
+  color: antiquewhite;
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0;
+}
+
+li a{
+  display: block;
+  color: antiquewhite;
+  width: 13rem;
+  line-height: 1rem;
+  height: 3rem;
+  text-align: center;
+}
+
+li a:hover{
+  background-color: black;
+}
+
+.container {
+  background-image: url("https://cdn.shopify.com/s/files/1/1310/3673/files/4-cf-texture.gif?v=1539183640");
+  width: 80%;
+  margin: auto;
+}
